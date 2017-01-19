@@ -718,6 +718,8 @@ OSMesaCreateContextAttribs(const int *attribList, OSMesaContext sharelist)
             api_profile = API_OPENGL_COMPAT;
          else if (profile == OSMESA_CORE_PROFILE)
             api_profile = API_OPENGL_CORE;
+         else if (profile == OSMESA_ES2_PROFILE)
+            api_profile = API_OPENGLES2;
          else
             return NULL;
          break;
