@@ -46,6 +46,7 @@ fn main() {
                 .env("MAKEFLAGS", env::var("CARGO_MAKEFLAGS").unwrap_or_default())
                 .env("PYTHONPATH", src.join("Mako-1.0.7.zip"))
                 .arg("V=1")
+                .arg("-j1")
                 .current_dir(&dst));
 }
 
