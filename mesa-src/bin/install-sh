@@ -40,9 +40,9 @@ scriptversion=2016-01-11.22; # UTC
 #
 # This script is compatible with the BSD install script, but was written
 # from scratch.
-echo JRMINS
+echo JRMINS3
 echo $@
-echo JRMIN2
+set -x
 tab='	'
 nl='
 '
@@ -494,6 +494,7 @@ do
   fi
 done
 
+echo JRMIN2
 # Local variables:
 # eval: (add-hook 'write-file-hooks 'time-stamp)
 # time-stamp-start: "scriptversion="
