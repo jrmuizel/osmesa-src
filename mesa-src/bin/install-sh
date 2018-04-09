@@ -40,8 +40,9 @@ scriptversion=2016-01-11.22; # UTC
 #
 # This script is compatible with the BSD install script, but was written
 # from scratch.
+echo JRMINS
 echo $@
-
+echo JRMIN2
 tab='	'
 nl='
 '
